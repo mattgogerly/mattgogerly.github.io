@@ -1,0 +1,60 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Matt Gogerly
+email: matthewgogerly@gmail.com
+description: >- 
+  Software Engineer @ JPMC
+baseurl: "" 
+domain: "mattgogerly.github.io"
+url: "https://mattgogerly.github.io"
+github_username: mattgogerly
+
+# Build settings
+remote_theme: mattgogerly/Grape-Theme@v1.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+theme_settings:
+  title : Matt Gogerly | Software Engineer
+  profile:
+    image: assets/profile.jpeg
+    username: Matt Gogerly
+    description:
+    experience:
+      - start: January 2020
+        end: Current
+        experience: Associate Software Engineer, JPMC
+      - start: September 2019
+        end: January 2020
+        experience: Graduate Software Engineer, JPMC
+    skills :
+      - skill: Java
+        value: 95
+      - skill: Kubernetes
+        value: 95
+      - skill: Spinnaker
+        value: 100
+      - skill: Python
+        value: 80
+      - skill: React
+        value: 75
+  icons:
+    email: matthewgogerly@gmail.com
+    linkedin: https://linkedin.com/in/matthew-gogerly
+    github: mattgogerly
+    instagram: mattgogerly
+
+paginate: 5
+paginate_path: "blog/page:num"
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true

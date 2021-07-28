@@ -1,0 +1,12 @@
+- project:
+    print: True
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: https://github.com/mattgogerly/MailBean # Full URL
+    #image: "portfolio.png" # path: assets/project/
+    date: 2018 - 2019 (Dissertation)
+    title: MailBean
+    summary: Final year project
+    description: An email client with machine learning phishing detection
+    contents:
+      - title: 1. Hi
+        description: Bla
