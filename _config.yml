@@ -28,10 +28,16 @@ theme_settings:
     experience:
       - start: January 2020
         end: Current
-        experience: Associate Software Engineer, JPMC
+        experience: Associate Software Engineer, J.P. Morgan Chase
       - start: September 2019
         end: January 2020
-        experience: Graduate Software Engineer, JPMC
+        experience: Graduate Software Engineer, J.P. Morgan Chase
+      - start: June 2019
+        end: August 2019
+        experience: Software Engineering Intern, Goldman Sachs
+      - start: June 2018
+        end: August 2018
+        experience: Software Engineering Intern, J.P. Morgan Chase
     skills :
       - skill: Java
         value: 95
@@ -43,6 +49,8 @@ theme_settings:
         value: 80
       - skill: React
         value: 75
+      - skill: Golang
+        value: 50
   icons:
     email: matthewgogerly@gmail.com
     linkedin: https://linkedin.com/in/matthew-gogerly

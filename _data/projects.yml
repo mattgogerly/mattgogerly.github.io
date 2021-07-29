@@ -1,12 +1,24 @@
 - project:
     print: True
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
-    url: https://github.com/mattgogerly/MailBean # Full URL
-    #image: "portfolio.png" # path: assets/project/
+    modal: True
+    url: https://github.com/mattgogerly/MailBean
+    image: "mailbean/setup.png"
     date: 2018 - 2019 (Dissertation)
     title: MailBean
     summary: Final year project
     description: An email client with machine learning phishing detection
+    skills:
+      - Java
+      - Node
+      - Angular
+      - ML
     contents:
-      - title: 1. Hi
-        description: Bla
+      - title: Account Setup
+        image: "mailbean/setup.png"
+        description: Add accounts from Gmail, Outlook, Yahoo or any other email provider
+      - title: Browse Safely
+        image: "mailbean/main.png"
+        description: A simple email client, with built in machine learning phishing detection
+      - title: Send Emails
+        image: "mailbean/send.png"
+        description: Send emails with a full suite of formatting options
