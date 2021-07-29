@@ -24,7 +24,7 @@ theme_settings:
   profile:
     image: assets/profile.jpeg
     username: Matt Gogerly
-    description:
+    description: Software and DevOps Engineer, working on Spinnaker @ JPMC.
     experience:
       - start: January 2020
         end: Current

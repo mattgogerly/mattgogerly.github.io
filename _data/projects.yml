@@ -6,16 +6,15 @@
     date: 2018 - 2019 (Dissertation)
     title: MailBean
     summary: Final year project
-    description: An email client with machine learning phishing detection
+    description: >
+      An email client with machine learning phishing detection. Supports ccounts from Gmail, Outlook, Yahoo
+      or any other email provider
     skills:
       - Java
       - Node
       - Angular
       - ML
     contents:
-      - title: Account Setup
-        image: "mailbean/setup.png"
-        description: Add accounts from Gmail, Outlook, Yahoo or any other email provider
       - title: Browse Safely
         image: "mailbean/main.png"
         description: A simple email client, with built in machine learning phishing detection
