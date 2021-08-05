@@ -7,8 +7,8 @@
     title: MailBean
     summary: Final year project
     description: >
-      An email client with machine learning phishing detection. Supports ccounts from Gmail, Outlook, Yahoo
-      or any other email provider
+      An email client with machine learning based phishing detection. Supports accounts from Gmail, Outlook, Yahoo
+      or any other IMAP email provider.
     skills:
       - Java
       - Node
